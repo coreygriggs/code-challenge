@@ -35,9 +35,7 @@ function App() {
                 <Typography variant="h6">
                     New York Times Top Articles
                 </Typography>
-                <Search
-                  searchTerm={searchTerm}
-                />
+                <Search />
             </Toolbar>
         </AppBar>
         {error && 'The articles could not be retrieved. Please try again later.'}
