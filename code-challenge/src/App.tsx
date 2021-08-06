@@ -12,7 +12,6 @@ type RootState = ReturnType<typeof store.getState>;
 
 function App() {
   const [error, setError] = useState(null);
-  const searchTerm = useSelector((state: RootState) => state.searchTerm);
   const dispatch = useDispatch();
 
   useEffect(() => {

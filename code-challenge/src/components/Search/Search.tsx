@@ -1,8 +1,8 @@
 import React from 'react';
 import './Search.scss';
-import {IconButton, InputBase, Paper} from "@material-ui/core";
+import { IconButton, InputBase, Paper } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
-import {useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 
 const Search = () => {
     const dispatch = useDispatch();

@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.MuiToolbar-root {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}

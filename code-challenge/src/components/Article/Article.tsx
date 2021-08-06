@@ -16,7 +16,7 @@ const Article = ({ title, byline, section }: ArticleListProps) => (
               secondary={`Byline:  ${byline}, Section: ${section}`}
           />
       </ListItem>
-      <Divider variant="inset" component="li" />
+      <Divider component="li" />
   </div>
 );
 
