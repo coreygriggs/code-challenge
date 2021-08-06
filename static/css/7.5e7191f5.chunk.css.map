@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Search/Search.scss"],"names":[],"mappings":"AAAA,QACE,eAAA,CACA,iBAAA,CACA,gBAAA,CAEA,yBACE,SAAA","file":"7.5e7191f5.chunk.css","sourcesContent":[".Search {\n  min-width: 300px;\n  padding-left: 25px;\n  margin-left: 25px;\n\n  .SearchInputBase {\n    width: 80%;\n  }\n}"]}

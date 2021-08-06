@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/ArticleList/ArticleList.scss"],"names":[],"mappings":"AAAA,aACE,SAAA,CACA,eAAA","file":"5.31738cf1.chunk.css","sourcesContent":[".ArticleList {\n  width: 50%;\n  margin-top: 85px;\n}"]}
