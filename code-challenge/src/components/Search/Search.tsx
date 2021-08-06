@@ -8,7 +8,7 @@ const Search = () => {
     const dispatch = useDispatch();
 
     const updateArticles = (event: any) => {
-        if (event.target.value) {
+        if (event.target.value || event.target.value === '') {
             dispatch({ type: 'FILTER_ARTICLES', payload: { searchTerm: event.target.value } });
         }
     }
